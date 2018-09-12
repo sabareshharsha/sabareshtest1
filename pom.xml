@@ -3,4 +3,14 @@
   <groupId>sabareshtest1</groupId>
   <artifactId>sabareshtest1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    <build>
+        <pluginManagement>
+          <plugins>
+            <plugin>
+              <artifactId>maven-resources-plugin</artifactId>
+              <version>2.5</version>
+            </plugin>           
+          </plugins>
+        </pluginManagement>   
+    </build>
 </project>
